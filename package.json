@@ -1,0 +1,20 @@
+{
+  "name": "task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "promise.js",
+  "config": {
+    "gitHubToken": ""
+  },
+  "scripts": {
+    "approach:promise": "node promise.js",
+    "approach:async-await": "node async-await.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  }
+}
